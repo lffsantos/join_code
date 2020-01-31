@@ -5,6 +5,7 @@ from core.models import Pessoa, Cargo
 
 class PessoaSerializer(serializers.ModelSerializer):
     cargo = serializers.ReadOnlyField(source='cargo.nome')
+
     class Meta:
         model = Pessoa
         fields = '__all__'

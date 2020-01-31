@@ -115,3 +115,6 @@ error.log
 media
 join_code/.env
 .vscode
+
+node_modules/
+package-lock.json
