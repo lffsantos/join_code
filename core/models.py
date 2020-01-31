@@ -9,6 +9,7 @@ class Cargo(models.Model):
 
     class Meta:
         verbose_name_plural = 'Cargos'
+        ordering = ['nome']
         db_table = 'cargo'
 
 
@@ -22,4 +23,5 @@ class Pessoa(models.Model):
 
     class Meta:
         verbose_name_plural = 'Pessoas'
+        ordering = ['nome', 'admissao']
         db_table = 'pessoa'
