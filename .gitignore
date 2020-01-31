@@ -88,7 +88,7 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
+join_code/.env
 .venv
 env/
 venv/
@@ -113,5 +113,5 @@ access.log
 error.log
 
 media
-.env
+join_code/.env
 .vscode
